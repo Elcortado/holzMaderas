@@ -8,12 +8,36 @@
     width: 100%;
     height: min-content;
 }
+#logo {
+    padding: 20px;
+}
+#descrip {
+    padding: 25px;
+    
+}
    
 header {
     background-image: url("../assets/fondo.jpeg");
     background-size: cover;
+   
 
 }
 #offcanvasDarkNavbarLabel {
     font-size: x-large;
+}
+
+#imgcarousel {
+    object-fit: cover !important;
+    width:60% !important;
+    
+}
+
+/* son las flechas */
+#carouselExampleDark{
+    
+    width: 90% !important;
+   
+}
+section {
+    align-items: center;
 }
