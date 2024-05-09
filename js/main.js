@@ -18,15 +18,6 @@
         $(window).resize(toggleNavbarMethod);
     });
 
-
-    // Date and time picker
-    $('.date').datetimepicker({
-        format: 'L'
-    });
-    $('.time').datetimepicker({
-        format: 'LT'
-    });
-    
     
     // Back to top button
     $(window).scroll(function () {

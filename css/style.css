@@ -1,4 +1,9 @@
 /********** Template CSS **********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --primary: #F77D0A;
     --secondary: #2B2E4A;
@@ -117,23 +122,15 @@ h6,
     }
 }
 
-.page-header {
-    height: 400px;
-    margin-bottom: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/bg-banner.jpg);
-    background-attachment: fixed;
-}
 
 @media (max-width: 991.98px) {
     .page-header {
         height: 300px;
     }
 }
-
+.card{
+    width:100% !important;
+}
 .service-item {
     height: 320px;
     background: var(--light);
@@ -152,7 +149,7 @@ h6,
 
 .service-item:hover h1,
 .service-item.active h1 {
-    color: var(--dark) !important;
+    color: var(--primary) !important;
 }
 
 .service-item:hover h4,
@@ -309,7 +306,3 @@ h6,
     color: var(--light);
 }
 
-.bg-banner {
-    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/bg-banner.jpg);
-    background-attachment: fixed;
-}
