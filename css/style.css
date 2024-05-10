@@ -127,6 +127,7 @@ h6,
 .card{
     width:100% !important;
 }
+
 .service-item {
     height: 320px;
     background: var(--light);
@@ -267,38 +268,8 @@ h6,
     transition: .5s;
 }
 
-.vendor-carousel .owl-dot.active,
-.testimonial-carousel .owl-dot.active {
+.vendor-carousel .owl-dot.active {
     width: 40px;
     height: 40px;
     background: var(--primary);
 }
-
-.testimonial-carousel .owl-item img {
-    width: 80px;
-    height: 80px;
-}
-
-.testimonial-carousel .owl-item .testimonial-item {
-    height: 350px;
-    transition: .5s;
-    background: var(--light);
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--secondary);
-}
-
-.testimonial-carousel .owl-item .testimonial-item h1,
-.testimonial-carousel .owl-item .testimonial-item h4 {
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item h1 {
-    color: var(--dark) !important;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item h4 {
-    color: var(--light);
-}
-
