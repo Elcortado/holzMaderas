@@ -282,3 +282,9 @@ h6,
     padding-bottom: 7%;
     padding-right: 10%;
 }
+
+#imgOfert {
+    border-radius: 20px;
+    -webkit-box-shadow: 8px 8px 30px 9px #241104; 
+box-shadow: 8px 8px 30px 9px #241104;
+}
